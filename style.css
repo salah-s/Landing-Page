@@ -69,15 +69,15 @@ a {
 
 .hero-section .content p {
     color: #E5E7EB;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 button {
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #F9FAF8;
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 130px;
     font-weight: 900;
     font-size: 18px;
     border-style: none;
@@ -97,4 +97,41 @@ h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin: 1.5em;
+}
+
+.middle-section .info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+
+}
+
+.info-box img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6 ;
+    border-radius: 15px;
+}
+
+.info-box p {
+    text-align: center;
+    font-weight: 300;
+    color: #1F2937;
+    width: 150px;
+    height: auto;
+
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 400px;
 }
