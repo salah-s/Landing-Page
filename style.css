@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 2000px;
 }
 
 .header {
@@ -84,4 +85,16 @@ button {
 
 h1 {
     margin: 0;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
